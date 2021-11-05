@@ -1,0 +1,18 @@
+Algoritma Bilangan Fibonacci menggunakan pseudocode 
+
+Deklarasi : i, n, fibonacci (i) : integer
+
+Deskripsi:
+input n
+if i=0 or i=1 then 
+cetak "fibonacci(i)=i"
+else
+while i>1 and i≤n do
+fibonacci(i)=fibonacci(i-1) + fibonacci (i-2)
+cetak fibonacci(i)
+i=i+1
+end
+
+Note : 
+1. Deklarasi adalah pernyataan yang berisikan variabel
+2. i mengintepretasikan fibonacci dan n mengintepretasikan banyaknya bilangan yang akan di input. 
